@@ -7,7 +7,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Journal {
+class Journal {
 
 	private final List<String> entries = new ArrayList<>();
 	private static int count = 0;
@@ -47,7 +47,7 @@ class Persistence {
 
 }
 
-class Demo {
+public class SingleResponsibilityPrinciple {
 
 	public static void main(String[] args) throws Exception {
 		Journal j = new Journal();
